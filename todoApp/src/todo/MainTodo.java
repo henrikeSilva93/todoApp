@@ -53,7 +53,17 @@ public class MainTodo {
         System.out.println("todo adicionado com sucesso!");
         System.out.println();
         System.out.println();
-        imprimeTela();
+
+        System.out.println("Voltar para tela inicial- [0] - Criar novo todo - [1]");
+        switch (entrada.nextInt()){
+            case 1:
+                criarTodo();
+                limpaTela();
+                break;
+            case 0:
+                imprimeTela();
+                break;
+        }
 
     }
     public static void listaTodos(){
