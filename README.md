@@ -1,2 +1,3 @@
-# todoApp
-Projeto de um todo feito em java
+# todoAppCli
+Projeto para exercitar meus conhecimentos na Linguagem Java 
+
